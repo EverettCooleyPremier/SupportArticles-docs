@@ -38,7 +38,7 @@ You can work around this using the following methods:
 
 2. Click the Deployment tab, then click the Advanced button. Note the Script Name location. You will need the CLSID (long alphanumeric number) directly after the \Policies notation.
 
-3. Open the ADSI editor, connect to your domain and navigate to the System\Policies tree on the left side of the window. Locate the CLSID you noted above.
+3. Open the ADSI editor or Active Directory Users and Computers, connect to your domain and navigate to the System\Policies tree on the left side of the window. Locate the CLSID you noted above. With Active Directory Users and Computers you will need to have Advanced Features from the View menu turned on.
 
 4. Expand this CLSID tree and then expand the following trees to get to the actual defined Package Object: CN=Machine \ CN=Class Store \ CN=Packages.  
 
